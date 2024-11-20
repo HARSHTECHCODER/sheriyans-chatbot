@@ -1,0 +1,105 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hey", "Hello", "How are you?", "Good day", "Hi there", "Hello there, hii"],
+      "responses": [
+        "Hello! Welcome to Sheriyans Coding School.",
+        "Hi there! How can I assist you today?",
+        "Greetings! Looking for a course? Let me help you."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "Bye", "See you", "Catch you later"],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you soon! Best of luck with your learning.",
+        "Bye! Feel free to return anytime."
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["What are the fees?", "Fee structure", "Cost of courses", "How much are the courses?"],
+      "responses": [
+        "Here is the fee structure for our courses:\n- CPCT: ₹5,000\n- Java: ₹8,000\n- DSA: ₹10,000\n- Data Science & ML: ₹15,000\n- C Programming: ₹6,000\n- C++: ₹7,000\n- MERN Stack: ₹18,000\n- Frontend Development: ₹8,000\n- Backend Development: ₹10,000\n- Full Stack Developer: ₹20,000",
+        "Each course has a different fee. Let me know the course you're interested in, and I’ll share the details."
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "What courses do you offer?",
+        "List of courses",
+        "What are your available courses?",
+        "Which courses can I join?"
+      ],
+      "responses": [
+        "We offer the following courses:\n- CPCT\n- Java\n- DSA\n- Data Science and ML\n- C Programming\n- C++\n- MERN Stack\n- Frontend Development\n- Backend Development\n- Full Stack Development\nFeel free to ask for syllabus details or fees!"
+      ]
+    },
+    {
+      "tag": "syllabus",
+      "patterns": [
+        "What is the syllabus for CPCT?",
+        "Syllabus for Java",
+        "Can you share the topics for DSA?",
+        "What topics are covered in Data Science?",
+        "Tell me about the syllabus for C Programming",
+        "What is in the MERN Stack course?"
+      ],
+      "responses": [
+        "CPCT: Basic computer knowledge, typing, and MS Office skills.\nJava: Basics, OOP concepts, libraries, GUI development, and Android fundamentals.\nDSA: Arrays, Linked Lists, Trees, Graphs, Sorting & Searching, Dynamic Programming, and Problem-Solving.\nData Science & ML: Python, Pandas, Numpy, Visualization, ML algorithms, and AI basics.\nC Programming: Basics, Operators, Loops, Functions, Pointers, Structs, and File Handling.\nC++: OOPs, STL, Memory Management, and Advanced Concepts.\nMERN Stack: MongoDB, Express.js, React.js, and Node.js development.\nFrontend Development: HTML, CSS, JavaScript, React.js, and Tailwind CSS.\nBackend Development: Node.js, Express.js, REST APIs, and Database Management.\nFull Stack Development: Combination of Frontend, Backend, and Deployment."
+      ]
+    },
+    {
+      "tag": "cpct",
+      "patterns": ["Tell me about CPCT", "CPCT details", "What is CPCT?", "Why CPCT?"],
+      "responses": [
+        "CPCT (Computer Proficiency Certification Test) includes basic computer knowledge, typing, MS Word, MS Excel, and PowerPoint. Fee: ₹5,000."
+      ]
+    },
+    {
+      "tag": "dsa",
+      "patterns": ["What is DSA?", "DSA course details", "Why learn DSA?", "Topics in DSA?"],
+      "responses": [
+        "DSA (Data Structures and Algorithms) covers Arrays, Linked Lists, Trees, Graphs, Searching, Sorting, and Dynamic Programming. Fee: ₹10,000."
+      ]
+    },
+    {
+      "tag": "datascience_ml",
+      "patterns": ["Tell me about Data Science", "Data Science and ML topics", "Why choose Data Science?", "Data Science syllabus?"],
+      "responses": [
+        "Data Science and Machine Learning include Python, Pandas, NumPy, Visualization, Supervised and Unsupervised Learning, and AI basics. Fee: ₹15,000."
+      ]
+    },
+    {
+      "tag": "mern_stack",
+      "patterns": ["What is MERN Stack?", "Why learn MERN?", "MERN Stack syllabus?", "MERN details?"],
+      "responses": [
+        "MERN Stack includes MongoDB, Express.js, React.js, and Node.js. You’ll learn to build full-stack web applications. Fee: ₹18,000."
+      ]
+    },
+    {
+      "tag": "frontend_development",
+      "patterns": ["Tell me about Frontend Development", "Frontend syllabus", "What is taught in Frontend?", "Frontend Development topics?"],
+      "responses": [
+        "Frontend Development includes HTML, CSS, JavaScript, React.js, and Tailwind CSS. Fee: ₹8,000."
+      ]
+    },
+    {
+      "tag": "backend_development",
+      "patterns": ["Tell me about Backend Development", "Backend syllabus", "What is taught in Backend?", "Backend Development topics?"],
+      "responses": [
+        "Backend Development includes Node.js, Express.js, REST APIs, and Database Management. Fee: ₹10,000."
+      ]
+    },
+    {
+      "tag": "full_stack",
+      "patterns": ["What is Full Stack Development?", "Full Stack syllabus", "Details of Full Stack course?", "Why Full Stack?"],
+      "responses": [
+        "Full Stack Development combines Frontend (HTML, CSS, JavaScript, React.js) and Backend (Node.js, Express.js, MongoDB). Fee: ₹20,000."
+      ]
+    }
+  ]
+}
